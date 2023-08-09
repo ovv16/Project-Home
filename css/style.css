@@ -20,7 +20,7 @@
   font-family: TT Hoves;
   font-display: swap;
   src: url("../fonts/TT Hoves Light.woff2") format("woff2"), url("../fonts/TT Hoves Light.woff") format("woff");
-  font-weight: 3400;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -997,8 +997,8 @@ textarea.input {
   display: grid;
   counter-reset: my-counter;
   padding-left: 0;
-  -ms-grid-columns: (1fr)[2];
-  grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1.875rem;
 }
 
