@@ -651,6 +651,8 @@ textarea.input {
   display: -ms-flexbox;
   display: flex;
   gap: 0.9375rem;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .menu-contacts-footer__link svg {
@@ -1151,9 +1153,9 @@ textarea.input {
 
 .gallery-project__item-fourth {
   opacity: 0;
-  -webkit-transform: translateY(6.25rem);
-      -ms-transform: translateY(6.25rem);
-          transform: translateY(6.25rem);
+  -webkit-transform: translateY(3.75rem);
+      -ms-transform: translateY(3.75rem);
+          transform: translateY(3.75rem);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -2135,6 +2137,10 @@ textarea.input {
   }
 
   .menu-footer__link:hover {
+    color: #bdbdbd;
+  }
+
+  .menu-contacts-footer__link:hover {
     color: #bdbdbd;
   }
 
