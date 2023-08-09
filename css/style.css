@@ -937,9 +937,9 @@ textarea.input {
 
 .gallery-about__image-one {
   opacity: 0;
-  -webkit-transform: translateX(-6.25rem);
-      -ms-transform: translateX(-6.25rem);
-          transform: translateX(-6.25rem);
+  -webkit-transform: translateX(-3.75rem);
+      -ms-transform: translateX(-3.75rem);
+          transform: translateX(-3.75rem);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -953,9 +953,9 @@ textarea.input {
 
 .gallery-about__image-two {
   opacity: 0;
-  -webkit-transform: translateX(6.25rem);
-      -ms-transform: translateX(6.25rem);
-          transform: translateX(6.25rem);
+  -webkit-transform: translateX(3.75rem);
+      -ms-transform: translateX(3.75rem);
+          transform: translateX(3.75rem);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -969,9 +969,9 @@ textarea.input {
 
 .gallery-about__image-three {
   opacity: 0;
-  -webkit-transform: translateY(6.25rem);
-      -ms-transform: translateY(6.25rem);
-          transform: translateY(6.25rem);
+  -webkit-transform: translateY(3.75rem);
+      -ms-transform: translateY(3.75rem);
+          transform: translateY(3.75rem);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
